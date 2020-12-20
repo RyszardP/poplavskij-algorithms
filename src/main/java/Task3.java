@@ -1,11 +1,9 @@
-package algorithms;
-
 import java.util.Scanner;
 
 public class Task3 {
     public static void main(String[] args) {
 
-        //Составить алгоритм: на входе есть числовой массив, необходимо вывести элементы массива кратные 3
+        //С оставить алгоритм: на входе есть числовой массив, необходимо вывести элементы массива кратные 3
         int n = 0;
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите количество чисел массива:");
@@ -22,7 +20,6 @@ public class Task3 {
         }
 
         int n2 = 0;
-
         int a2[] = new int[count];
         for (int i = 0; i < a.length; i++) {
             if (a[i] % 3 == 0) {
